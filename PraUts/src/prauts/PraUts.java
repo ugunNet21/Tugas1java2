@@ -38,19 +38,26 @@ public class PraUts {
         angka8=angka.nextInt();
         
         
-        if (angka1>= angka2 && angka1>=angka3){
+        if (angka1>= angka2 && angka1 >=angka3){
             System.out.println(angka1+": adalah yang terbesar");
         }
-        else if (angka2 >=angka1 && angka2 >=angka3){
+            else if (angka2 >=angka1 && angka2 >=angka3){
             System.out.println(angka2+":adalah yang terrbesar");
         }
-        else {
-            System.out.println(angka3 +": adalah yang terbesar");
+        if (angka3>=angka2 && angka3 >=angka4){
+            System.out.println(angka4+":adalah terbesar");
         }
-        
+            else if (angka4>=angka5 && angka4 >=angka6){
+                System.out.println(angka5+":adalah terbesar");           
+        }
+        if (angka5 >=angka6 && angka5 >=angka7){
+            System.out.println(angka6+":adalah terbesar");
+            }else if (angka7 >=angka6 && angka8>=angka7){
+                System.out.println(angka7+":adlah terbesar");
+            }   
+        else {
+            System.out.println(angka8 +": adalah yang terbesar");
+        }
     }
-    
-        
-    }
-    
+}
 

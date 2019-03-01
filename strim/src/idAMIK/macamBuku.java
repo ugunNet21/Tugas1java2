@@ -42,11 +42,14 @@ public class macamBuku {
         
         
         do {
-            System.out.println("----------------------------------");
-            System.out.println("    WELCOME TO THE LYBLARY   I/O  ");
-            System.out.println("----------------------------------");
-            System.out.println("1. Tambah Data Buku/2. Tampilkan Data Buku/ 3. Keluar Apps");
-            System.out.println("Masukkan Pilihan = ");
+            
+             System.out.println("|>>>>>>>>>>>[ MENU ]<<<<<<<<<<<<|");
+             System.out.println("|   1. MENAMBAHKAN DATA BUKU    |");
+             System.out.println("|   2. MENAMPILKAN DATA BUKU    |");
+             System.out.println("|   3. KELUAR                   |");
+             System.out.println("|===============================|");
+             System.out.print("\nMASUKAN PILIHAN [1-3]:");
+            
             int alif = input.nextInt();
             
             switch (alif) {
